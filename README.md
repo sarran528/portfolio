@@ -1,7 +1,7 @@
 # 3D Portfolio Website
 
 <div align="center">
-    <a href="https://github.com/Usernameunavailable0/3d-portfolio">
+    <a href="https://sarran528.github.io/portfolio/">
         <img src="src/assets/illu.png" alt="3D Portfolio Logo" width="235" height="150">
     </a>
 </div>
