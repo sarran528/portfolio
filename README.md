@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="https://sarran528.github.io/portfolio/">
-        <img src="src/assets/illu.webp" alt="3D Portfolio Logo" width="235" height="150">
+        <img src="src/assets/illu.webp" alt="3D Portfolio Logo" width="245" height="235">
     </a>
 </div>
 
@@ -30,7 +30,9 @@ This 3D Portfolio Website provides an immersive experience, allowing visitors to
 - **Three.js** - A JavaScript library for rendering 3D graphics.
 - **React Three Fiber** - A React renderer for Three.js.
 - **TailwindCSS** - A utility-first CSS framework.
-- **Framer Motion** - A React animation library.
+- **React.js** - A JavaScript library for building user interfaces.
+- **Vite** - A fast development build tool.
+- **Blender** - A 3D creation suite used for modeling assets.
 
 ## 🚀 Getting Started
 
