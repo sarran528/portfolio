@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="https://sarran528.github.io/portfolio/">
-        <img src="src/assets/illu.webp" alt="3D Portfolio Logo" width="245" height="235">
+        <img src="src/assets/illu.webp" alt="3D Portfolio Logo" width="244" height="235">
     </a>
 </div>
 
