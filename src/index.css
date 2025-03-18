@@ -21,13 +21,13 @@
 ::-webkit-scrollbar-track {
   background: #2a2e2f;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 11px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: lightblue;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 ::selection {
