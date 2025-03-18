@@ -84,39 +84,46 @@ const ImageCarousel = () => {
 };
 
 const Feedbacks = () => {
-  return (
-    <>
-      {/* <div
-        className="relative w-full h-screen mx-auto"
-        style={{ bottom: "15rem" }}
-      >
-        <ComputersCanvas />
-      </div> */}
-      <div className={` bg-black-100 rounded-[20px]`}>
-        <div
-          className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
-        >
-          {/* <motion.div variants={textVariant()}>
-            <p className={styles.sectionSubText}>What others say</p>
-            <h2
-              className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
-            >
-              Testimonials.
-            </h2>
-          </motion.div>
-        </div>
-        <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-          {testimonials.map((testimonial, index) => (
-            <FeedbackCard
-              key={testimonial.name}
-              index={index}
-              {...testimonial}
-            />
-          ))} */}
-          <ImageCarousel />
-        </div>
-      </div>
+  return ( 
+<>
+
+ 
+=
     </>
+    
+    // <>
+    // return null;
+    //   {/* <div
+    //     className="relative w-full h-screen mx-auto"
+    //     style={{ bottom: "15rem" }}
+    //   >
+    //     <ComputersCanvas />
+    //   </div> */}
+    //   <div className={` bg-black-100 rounded-[20px]`}>
+    //     <div
+    //       className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+    //     >
+    //       {/* <motion.div variants={textVariant()}>
+    //         <p className={styles.sectionSubText}>What others say</p>
+    //         <h2
+    //           className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
+    //         >
+    //           Testimonials.
+    //         </h2>
+    //       </motion.div>
+    //     </div>
+    //     <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+    //       {testimonials.map((testimonial, index) => (
+    //         <FeedbackCard
+    //           key={testimonial.name}
+    //           index={index}
+    //           {...testimonial}
+    //         />
+    //       ))} */}
+    //       <ImageCarousel />
+    //     </div>
+    //   </div>
+    // </>
   );
 };
 
