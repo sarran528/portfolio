@@ -87,15 +87,15 @@ const Works = () => {
   return (
     <>
       {/* <motion.div variants={textVariant()}> */}
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        {/* <p className={`${styles.sectionSubText} `}>My work</p>
         <h2
           className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
         >
           Projects.
-        </h2>
+        </h2> */}
       {/* </motion.div> */}
 
-      <div className="w-full flex">
+      {/* <div className="w-full flex">
         <p
           variants={fadeIn("", "", 1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -106,13 +106,13 @@ const Works = () => {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </p>
-      </div>
+      </div> */}
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      {/* <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
