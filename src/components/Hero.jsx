@@ -122,5 +122,5 @@ const Hero = () => {
     </section>
   );
 };
-
+// qqrer
 export default Hero;
