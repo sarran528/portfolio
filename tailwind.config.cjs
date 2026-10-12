@@ -4,8 +4,27 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      spacing: {
+        4: "var(--space-4)",
+        8: "var(--space-8)",
+        12: "var(--space-12)",
+        16: "var(--space-16)",
+        24: "var(--space-24)",
+        32: "var(--space-32)",
+        48: "var(--space-48)",
+        64: "var(--space-64)",
+        96: "var(--space-96)",
+      },
+      borderRadius: {
+        sm: "var(--radius-sm)",
+        md: "var(--radius-md)",
+        lg: "var(--radius-lg)",
+        xl: "var(--radius-xl)",
+        full: "var(--radius-full)",
+      },
       animation: {
-        text: "text 5s ease infinite",
+        text: "text 5s var(--ease-smooth) infinite",
+        float: "float 8s ease-in-out infinite",
       },
       keyframes: {
         text: {
@@ -20,21 +39,31 @@ module.exports = {
         },
       },
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        background: "var(--color-background)",
+        surface: "var(--color-surface)",
+        border: "var(--color-border)",
+        text: "var(--color-text)",
+        muted: "var(--color-muted)",
+        accent: "var(--color-accent)",
+        secondary: "var(--color-accent-soft)",
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        sm: "var(--shadow-sm)",
+        lg: "var(--shadow-lg)",
       },
       screens: {
-        xs: "450px",
+        xs: "360px",
+        phone: "480px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+      transitionDuration: {
+        micro: "var(--duration-micro)",
+        base: "var(--duration-base)",
+        large: "var(--duration-large)",
       },
     },
   },

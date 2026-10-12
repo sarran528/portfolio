@@ -1,0 +1,71 @@
+Build a complete, modern, premium-looking personal portfolio website for a Full Stack Developer.
+
+DESIGN DIRECTION
+- Dark-first, with a light-mode toggle. Minimal and elegant, with generous whitespace.
+- One strong accent color and a refined type pairing (bold display font + clean body font).
+- Smooth scroll animations, subtle hover micro-interactions, glass/gradient accents used sparingly.
+- Fully responsive, fast, accessible, with SEO and social-share meta tags.
+- Tech: Next.js + TypeScript + Tailwind CSS (deployable to GitHub Pages/Vercel).
+
+SECTIONS: Hero, About, Skills, Experience, Projects, Education, Certifications & Achievements, Contact, Footer.
+
+--- CONTENT (use exactly as written) ---
+
+NAME: Sarran M
+TITLE: Full Stack Developer
+LOCATION: Coimbatore, Tamil Nadu
+EMAIL: sarranm528@gmail.com
+GITHUB: github.com/sarran528
+LINKEDIN: linkedin.com/in/sarran-m
+HERO CTAs: "View Projects", "Download Resume", "Contact"
+
+ABOUT:
+Full Stack Developer and Computer Science graduate with a strong foundation in JavaScript, TypeScript, React, Next.js, and Node.js, built through production-grade internships, freelance delivery, and independent SaaS development. Experienced across the stack, from REST API and database design to authentication and AI-integrated features, with hands-on exposure to Java and Spring Boot. Comfortable working within team-based development structures, learning new codebases quickly, and using AI tools to accelerate development while applying independent judgment to review and validate output.
+
+SKILLS (display as grouped categories):
+- Languages: JavaScript, TypeScript, Java, Python, C
+- Frontend: React.js, Next.js, React Native, Tailwind CSS, Shadcn/UI, HTML5, CSS3
+- Backend: Node.js, Express.js, REST APIs, JWT Authentication, Spring Boot
+- Databases: PostgreSQL, Prisma ORM, Neon Database, MongoDB, MySQL
+- State Management: TanStack Query, Context API
+- AI & Automation: OpenAI API Integration, Inngest
+- Tools: Git, GitHub, Postman, VS Code, IntelliJ IDEA, Prisma Studio
+- Core Concepts: Data Structures, Algorithms, Object-Oriented Programming, DBMS, SDLC, System Design Fundamentals
+
+EXPERIENCE (timeline layout):
+1. Freelance Project Manager & Full Stack Developer — NEXGENADZ (2026 – Present)
+   - Engaged by the client as a freelance developer and project lead to build a College CMS platform and website for PPG Institute of Technology, end to end.
+   - Own project planning, feature tracking, stakeholder communication, and delivery timelines in a direct client-facing role.
+   - Build frontend interfaces, backend APIs, and database architecture, and manage the deployment pipeline through to production.
+2. Full Stack Developer Intern — Cloves Inc. (Remote) (Jul 2025)
+   - Built backend APIs and business logic using Java and Spring Boot, working with relational databases.
+   - Optimized API response handling and collaborated with the team to implement and test features.
+3. Java Developer Intern — Infosys (Jul 2025)
+   - Built frontend and backend modules using React and Spring Boot, implementing REST APIs.
+   - Contributed to requirement analysis, debugging, and testing workflows as part of a team-based development process.
+
+PROJECTS (card grid + detail view; leave placeholders for live link, GitHub link and screenshots):
+1. AI-Assisted Skill OS — AI SaaS Platform
+   - Built an AI-powered SaaS application for skill development, content generation, and workflow automation, with secure sandboxing.
+   - Implemented Inngest-based CRUD workflows and background jobs, integrating OpenAI API features for AI-assisted content generation.
+   - Tech: Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Neon, Inngest, TanStack Query, Shadcn/UI, OpenAI API
+2. Study Group Finder — Full Stack Web Application
+   - Built an end-to-end platform for discovering, creating, and managing study groups, including course mapping and membership workflows.
+   - Designed the REST API, database schema, and JWT-based authentication powering the platform.
+   - Tech: React, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, Git
+3. Low Vision Assistive Mobile Application — React Native Mobile App
+   - Built a React Native mobile app for visually impaired users with image-to-text, speech-to-text, and text-to-speech capabilities.
+   - Implemented OCR and image-processing pipelines in Python, integrated with the frontend for real-time voice assistance.
+   - Tech: React Native, Expo, Python, OCR Libraries, Speech Recognition, Text-to-Speech APIs
+
+EDUCATION:
+- Bachelor of Engineering in Computer Science and Engineering (2021 – 2025), PPG Institute of Technology, Coimbatore — CGPA: 8/10
+- Higher Secondary Certificate (HSC) & SSLC — Maharishi Vidya Mandir (HSC: 70% | SSLC: 79%, 2021 / 2019)
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Java Programming Certification (Infosys)
+- Data Analysis Certification (IBM)
+- MongoDB Certification
+- Runner-Up – Tamil Nadu Skill Development Corporation (TNSDC) Hackathon
+
+CONTACT SECTION: "Let's work together" headline, email link, GitHub, LinkedIn, and a simple contact form.

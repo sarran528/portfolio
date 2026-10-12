@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.75}
-        position={isMobile ? [0, -2, -1.5] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.60 : 2.9}
+        position={isMobile ? [0, -1.8, -1.5] : [0, -0.15, -1.5]}
         rotation={[-0.01, -0.5, -0.1]}
       />
     </mesh>
@@ -55,7 +55,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
@@ -67,7 +67,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
           autoRotate
-          autoRotateSpeed={20}
+          autoRotateSpeed={0.7}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
